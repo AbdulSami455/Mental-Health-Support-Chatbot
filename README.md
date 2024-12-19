@@ -68,3 +68,23 @@ If you need immediate help, please contact one of the following resources:
 - National Suicide Prevention Lifeline: 1-800-273-8255
 - Crisis Text Line: Text 'HELLO' to 741741
 - [More Resources](https://www.mentalhealth.gov/get-help/immediate-help)
+
+
+## Additional Features
+
+Features
+Interactive Chatbot:
+
+Users can ask questions or share concerns with the chatbot.
+The chatbot provides supportive and non-judgmental responses based on user inputs.
+User Management:
+
+Users can register or load existing profiles.
+Profiles are saved locally with fields such as name, age, gender, health record, and more.
+Mental Health Book Summaries:
+
+Summaries of popular mental health books are available in the sidebar.
+Users can click on a book title to get a concise summary.
+Resources:
+
+Links to important mental health helplines and support services are included in the sidebar.
