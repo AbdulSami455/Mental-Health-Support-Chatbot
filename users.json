@@ -4,5 +4,16 @@
         "age": 21,
         "gender": "Female",
         "health_record": "ADHD"
+    },
+    "Ammar": {
+        "name": "Ammar",
+        "age": 21,
+        "gender": "Male",
+        "health_record": "Ss,lsd",
+        "sleep_pattern": "Very Good",
+        "stress_level": 4,
+        "support_system": "Yes",
+        "daily_routine": "akdnmas",
+        "ongoing_treatment": "adjsada"
     }
 }
