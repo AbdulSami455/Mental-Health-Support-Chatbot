@@ -1,0 +1,572 @@
+2024-12-21 21:32:52,709 [INFO] User list fetched successfully.
+2024-12-21 21:32:52,710 [INFO] User message received: Help me with my sleep, any tips?no?
+2024-12-21 21:32:52,710 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: Help me with my sleep, any tips?no?
+2024-12-21 21:32:52,712 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:33:01,246 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 574
+2024-12-21 21:33:01,250 [DEBUG] Response received from LLM: Hi Alii! Thanks for reaching out to me. I'm sorry to hear that you're struggling with your sleep. It's very important to have good sleep patterns and I'd be happy to help you with some tips. Can you tell me a bit more about why you're having trouble sleeping?no
+2024-12-21 21:34:55,393 [INFO] User list fetched successfully.
+2024-12-21 21:34:55,395 [INFO] User message received: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:34:55,395 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:34:55,397 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:35:05,164 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 782
+2024-12-21 21:35:05,256 [DEBUG] Response received from LLM: You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.
+2024-12-21 21:35:12,130 [INFO] User list fetched successfully.
+2024-12-21 21:35:12,132 [INFO] User message received: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:35:12,132 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:35:12,135 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:35:13,256 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 329
+2024-12-21 21:35:13,256 [DEBUG] Response received from LLM: Name: Ali
+Age: 21
+2024-12-21 21:35:17,112 [INFO] User list fetched successfully.
+2024-12-21 21:35:17,114 [INFO] User message received: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:35:17,115 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:35:17,117 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:35:17,855 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 308
+2024-12-21 21:35:17,856 [DEBUG] Response received from LLM: 
+2024-12-21 21:35:45,135 [INFO] User list fetched successfully.
+2024-12-21 21:35:45,137 [INFO] User message received: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:35:45,137 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:35:45,141 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:35:46,352 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 310
+2024-12-21 21:35:46,354 [DEBUG] Response received from LLM: 
+2024-12-21 21:35:50,300 [INFO] User list fetched successfully.
+2024-12-21 21:35:50,302 [INFO] User message received: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:35:50,302 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:35:50,305 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:35:51,049 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 308
+2024-12-21 21:35:51,050 [DEBUG] Response received from LLM: 
+2024-12-21 21:38:28,751 [INFO] User list fetched successfully.
+2024-12-21 21:38:28,754 [INFO] User message received: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:38:28,754 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:38:28,754 [INFO] Generating response from LLM...
+2024-12-21 21:38:28,755 [DEBUG] Prompt: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:38:28,759 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:38:30,841 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 311
+2024-12-21 21:38:30,843 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:38:30.840034Z', 'message': {'role': 'assistant', 'content': ''}, 'done_reason': 'stop', 'done': True, 'total_duration': 2077369125, 'load_duration': 18855792, 'prompt_eval_count': 228, 'prompt_eval_duration': 1555000000, 'eval_count': 7, 'eval_duration': 498000000}
+2024-12-21 21:38:30,844 [WARNING] Response content is empty or missing.
+2024-12-21 21:38:30,844 [DEBUG] Response received from LLM: I'm sorry, I couldn't provide an answer. Please try again or rephrase your question.
+2024-12-21 21:38:37,679 [INFO] User list fetched successfully.
+2024-12-21 21:38:37,682 [INFO] User message received: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:38:37,683 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:38:37,683 [INFO] Generating response from LLM...
+2024-12-21 21:38:37,683 [DEBUG] Prompt: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: I think I have problem with sleep because of excessive mobile usage 
+2024-12-21 21:38:37,687 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:38:38,724 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 310
+2024-12-21 21:38:38,725 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:38:38.722842Z', 'message': {'role': 'assistant', 'content': ''}, 'done_reason': 'stop', 'done': True, 'total_duration': 1032197125, 'load_duration': 12697000, 'prompt_eval_count': 228, 'prompt_eval_duration': 502000000, 'eval_count': 7, 'eval_duration': 510000000}
+2024-12-21 21:38:38,725 [WARNING] Response content is empty or missing.
+2024-12-21 21:38:38,725 [DEBUG] Response received from LLM: I'm sorry, I couldn't provide an answer. Please try again or rephrase your question.
+2024-12-21 21:39:35,175 [INFO] User list fetched successfully.
+2024-12-21 21:39:35,178 [INFO] User message received: Hi
+2024-12-21 21:39:35,178 [DEBUG] Prompt sent to LLM: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: Hi
+2024-12-21 21:39:35,179 [INFO] Generating response from LLM...
+2024-12-21 21:39:35,179 [DEBUG] Prompt: User Details:
+Name: ALI Haris Chisti
+Age: 21
+Gender: Male
+Health Record: kmkcsaxas
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: m axascas
+Ongoing Treatment: scascasc
+
+User Query: Hi
+2024-12-21 21:39:35,182 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:39:37,237 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 342
+2024-12-21 21:39:37,239 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:39:37.23533Z', 'message': {'role': 'assistant', 'content': 'Hi! How can I assist you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 2050727667, 'load_duration': 12484875, 'prompt_eval_count': 217, 'prompt_eval_duration': 1241000000, 'eval_count': 10, 'eval_duration': 793000000}
+2024-12-21 21:39:37,239 [DEBUG] Response received from LLM: Hi! How can I assist you today?
+2024-12-21 21:41:07,557 [INFO] User list fetched successfully.
+2024-12-21 21:41:07,559 [INFO] New user creation started.
+2024-12-21 21:41:16,293 [INFO] User list fetched successfully.
+2024-12-21 21:41:16,295 [INFO] Loading data for existing user: Sami
+2024-12-21 21:41:16,295 [INFO] User data loaded: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-21 21:41:21,033 [INFO] User list fetched successfully.
+2024-12-21 21:41:21,037 [INFO] User message received: Hi
+2024-12-21 21:41:21,038 [ERROR] Error during LLM interaction: 'sleep_pattern'
+2024-12-21 21:41:47,190 [INFO] User list fetched successfully.
+2024-12-21 21:41:47,192 [INFO] User message received: Hi
+2024-12-21 21:41:47,193 [ERROR] Error during LLM interaction: 'sleep_pattern'
+2024-12-21 21:43:49,953 [INFO] User list fetched successfully.
+2024-12-21 21:43:49,955 [INFO] User message received: Hi
+2024-12-21 21:43:49,955 [ERROR] Error during LLM interaction: 'sleep_pattern'
+2024-12-21 21:43:53,759 [INFO] User list fetched successfully.
+2024-12-21 21:43:53,761 [INFO] New user creation started.
+2024-12-21 21:43:56,160 [INFO] User list fetched successfully.
+2024-12-21 21:43:56,165 [INFO] Loading data for existing user: Sami
+2024-12-21 21:43:56,166 [INFO] User data loaded: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD', 'sleep_pattern': 'Average', 'stress_level': 5, 'support_system': 'Prefer not to say', 'daily_routine': '', 'ongoing_treatment': ''}
+2024-12-21 21:43:58,866 [INFO] User list fetched successfully.
+2024-12-21 21:43:58,870 [INFO] User message received: Hi
+2024-12-21 21:43:58,871 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-21 21:43:58,871 [INFO] Generating response from LLM...
+2024-12-21 21:43:58,871 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-21 21:43:58,874 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:44:02,451 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 359
+2024-12-21 21:44:02,458 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:44:02.44749Z', 'message': {'role': 'assistant', 'content': '[Assistant]Hi Sami! How can I assist you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 3567536500, 'load_duration': 19274125, 'prompt_eval_count': 209, 'prompt_eval_duration': 2299000000, 'eval_count': 16, 'eval_duration': 1245000000}
+2024-12-21 21:44:02,458 [DEBUG] Response received from LLM: [Assistant]Hi Sami! How can I assist you today?
+2024-12-21 21:44:14,802 [INFO] User list fetched successfully.
+2024-12-21 21:44:14,807 [INFO] User message received: Hi
+2024-12-21 21:44:14,808 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-21 21:44:14,808 [INFO] Generating response from LLM...
+2024-12-21 21:44:14,808 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-21 21:44:14,818 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:44:20,366 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 532
+2024-12-21 21:44:20,372 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:44:20.35559Z', 'message': {'role': 'assistant', 'content': "Hi Sami! I’m glad you’re seeking help today. Please feel free to share any thoughts and feelings that you’d like to, and I'll do my best to provide support and guidance for whatever it is that you are going through."}, 'done_reason': 'stop', 'done': True, 'total_duration': 5534129666, 'load_duration': 10835333, 'prompt_eval_count': 209, 'prompt_eval_duration': 633000000, 'eval_count': 59, 'eval_duration': 4886000000}
+2024-12-21 21:44:20,372 [DEBUG] Response received from LLM: Hi Sami! I’m glad you’re seeking help today. Please feel free to share any thoughts and feelings that you’d like to, and I'll do my best to provide support and guidance for whatever it is that you are going through.
+2024-12-21 21:44:26,650 [INFO] User list fetched successfully.
+2024-12-21 21:44:26,655 [INFO] User message received: Help me with my mental health 
+2024-12-21 21:44:26,655 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Help me with my mental health 
+2024-12-21 21:44:26,656 [INFO] Generating response from LLM...
+2024-12-21 21:44:26,656 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Help me with my mental health 
+2024-12-21 21:44:26,662 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:44:29,468 [INFO] User list fetched successfully.
+2024-12-21 21:44:29,473 [INFO] User message received: Help me with my mental health 
+2024-12-21 21:44:29,473 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Help me with my mental health 
+2024-12-21 21:44:29,473 [INFO] Generating response from LLM...
+2024-12-21 21:44:29,473 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Help me with my mental health 
+2024-12-21 21:44:29,476 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:44:40,435 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 546
+2024-12-21 21:44:40,445 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:44:40.434348Z', 'message': {'role': 'assistant', 'content': 'Hello Sami, I am sorry you are feeling down. It is essential for your mental wellbeing to maintain a healthy sleep pattern and routine. Have you been following any specific sleep schedule? If not, it would be helpful to set one now.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 10955604666, 'load_duration': 23660041, 'prompt_eval_count': 214, 'prompt_eval_duration': 2140000000, 'eval_count': 56, 'eval_duration': 8785000000}
+2024-12-21 21:44:40,446 [DEBUG] Response received from LLM: Hello Sami, I am sorry you are feeling down. It is essential for your mental wellbeing to maintain a healthy sleep pattern and routine. Have you been following any specific sleep schedule? If not, it would be helpful to set one now.
+2024-12-21 21:44:42,749 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 764
+2024-12-21 21:44:42,751 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:44:42.749296Z', 'message': {'role': 'assistant', 'content': "Hi Sami! I'm sorry to hear that you are struggling with your mental health. It takes a lot of courage to reach out for help, and I commend you for taking this important first step towards improving your well-being. Before we get started, I would like to ask you about your current state of mind on a scale of 1 to 10, with 1 being the lowest and 10 being the highest. Please take some time to think about this so we can better address your concerns."}, 'done_reason': 'stop', 'done': True, 'total_duration': 16082696000, 'load_duration': 13010583, 'prompt_eval_count': 214, 'prompt_eval_duration': 532000000, 'eval_count': 113, 'eval_duration': 15533000000}
+2024-12-21 21:44:42,751 [DEBUG] Response received from LLM: Hi Sami! I'm sorry to hear that you are struggling with your mental health. It takes a lot of courage to reach out for help, and I commend you for taking this important first step towards improving your well-being. Before we get started, I would like to ask you about your current state of mind on a scale of 1 to 10, with 1 being the lowest and 10 being the highest. Please take some time to think about this so we can better address your concerns.
+2024-12-21 21:44:44,853 [INFO] User list fetched successfully.
+2024-12-21 21:44:44,859 [INFO] User message received: Help me with my mental health 
+2024-12-21 21:44:44,859 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Help me with my mental health 
+2024-12-21 21:44:44,860 [INFO] Generating response from LLM...
+2024-12-21 21:44:44,860 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Help me with my mental health 
+2024-12-21 21:44:44,864 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:44:57,683 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1002
+2024-12-21 21:44:57,688 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:44:57.681167Z', 'message': {'role': 'assistant', 'content': 'Hi Sami! I’m so sorry to hear that you are struggling. I am here to help in any way I can, but it might be beneficial for you to seek professional help if you haven’t already. A mental health professional will be able to assess your mental state and provide tailored advice based on your specific needs. In the meantime, I would recommend making sure that you are getting enough sleep every night, eating healthy meals, and staying physically active. It can also be helpful to keep a regular routine, spend time with supportive people, and do activities that you enjoy. Remember, it’s important to be kind and patient with yourself as you work towards improving your mental health.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 12815699458, 'load_duration': 11601750, 'prompt_eval_count': 214, 'prompt_eval_duration': 256000000, 'eval_count': 147, 'eval_duration': 12544000000}
+2024-12-21 21:44:57,688 [DEBUG] Response received from LLM: Hi Sami! I’m so sorry to hear that you are struggling. I am here to help in any way I can, but it might be beneficial for you to seek professional help if you haven’t already. A mental health professional will be able to assess your mental state and provide tailored advice based on your specific needs. In the meantime, I would recommend making sure that you are getting enough sleep every night, eating healthy meals, and staying physically active. It can also be helpful to keep a regular routine, spend time with supportive people, and do activities that you enjoy. Remember, it’s important to be kind and patient with yourself as you work towards improving your mental health.
+2024-12-21 21:45:18,888 [INFO] User list fetched successfully.
+2024-12-21 21:45:18,894 [INFO] User message received: What you know about me?
+2024-12-21 21:45:18,895 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: What you know about me?
+2024-12-21 21:45:18,895 [INFO] Generating response from LLM...
+2024-12-21 21:45:18,895 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: What you know about me?
+2024-12-21 21:45:18,900 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:45:21,288 [INFO] User list fetched successfully.
+2024-12-21 21:45:21,292 [INFO] User message received: What you know about me?
+2024-12-21 21:45:21,293 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: What you know about me?
+2024-12-21 21:45:21,293 [INFO] Generating response from LLM...
+2024-12-21 21:45:21,293 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: What you know about me?
+2024-12-21 21:45:21,299 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:45:26,604 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 493
+2024-12-21 21:45:26,606 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:45:26.603867Z', 'message': {'role': 'assistant', 'content': "Hi Sami, thanks for reaching out. I'm here to help you with any questions or concerns you may have related to your mental health and wellbeing. Please feel free to ask me anything."}, 'done_reason': 'stop', 'done': True, 'total_duration': 7701694959, 'load_duration': 15157917, 'prompt_eval_count': 214, 'prompt_eval_duration': 1100000000, 'eval_count': 47, 'eval_duration': 6583000000}
+2024-12-21 21:45:26,606 [DEBUG] Response received from LLM: Hi Sami, thanks for reaching out. I'm here to help you with any questions or concerns you may have related to your mental health and wellbeing. Please feel free to ask me anything.
+2024-12-21 21:45:32,734 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 701
+2024-12-21 21:45:32,738 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:45:32.733496Z', 'message': {'role': 'assistant', 'content': "Hi Sami! It’s great to talk with you. I quickly went through your health record and found out that you are a young adult with ADHD, you have average sleep patterns, and you are experiencing moderate stress. I understand that you don't want to disclose your support system details at the moment, but if you need someone to talk to or lean on, please know that I am here for you as well."}, 'done_reason': 'stop', 'done': True, 'total_duration': 11428743250, 'load_duration': 29468708, 'prompt_eval_count': 214, 'prompt_eval_duration': 349000000, 'eval_count': 94, 'eval_duration': 11039000000}
+2024-12-21 21:45:32,738 [DEBUG] Response received from LLM: Hi Sami! It’s great to talk with you. I quickly went through your health record and found out that you are a young adult with ADHD, you have average sleep patterns, and you are experiencing moderate stress. I understand that you don't want to disclose your support system details at the moment, but if you need someone to talk to or lean on, please know that I am here for you as well.
+2024-12-21 21:46:16,573 [INFO] User list fetched successfully.
+2024-12-21 21:46:16,574 [INFO] New user creation started.
+2024-12-21 21:46:19,182 [INFO] User list fetched successfully.
+2024-12-21 21:46:19,184 [INFO] Loading data for existing user: Sami
+2024-12-21 21:46:19,185 [INFO] User data loaded: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD', 'sleep_pattern': 'Average', 'stress_level': 5, 'support_system': 'Prefer not to say', 'daily_routine': '', 'ongoing_treatment': ''}
+2024-12-21 21:46:29,147 [INFO] User list fetched successfully.
+2024-12-21 21:46:29,150 [INFO] User message received: What do you know about me?
+2024-12-21 21:46:29,151 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: What do you know about me?
+2024-12-21 21:46:29,151 [INFO] Generating response from LLM...
+2024-12-21 21:46:29,151 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: What do you know about me?
+2024-12-21 21:46:29,155 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:46:39,376 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 696
+2024-12-21 21:46:39,381 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:46:39.368477Z', 'message': {'role': 'assistant', 'content': "Hi Sami, I'm an AI language model, and I've had a chance to look at your health record. As per your recent records, you are 21 years old, female, diagnosed with ADHD, have average sleep patterns, moderate stress levels, and no reported support system (Please feel free to share if you would like to). Your daily routine is pretty balanced, and you do not have any ongoing treatment."}, 'done_reason': 'stop', 'done': True, 'total_duration': 10206955416, 'load_duration': 13546541, 'prompt_eval_count': 215, 'prompt_eval_duration': 1512000000, 'eval_count': 95, 'eval_duration': 8676000000}
+2024-12-21 21:46:39,382 [DEBUG] Response received from LLM: Hi Sami, I'm an AI language model, and I've had a chance to look at your health record. As per your recent records, you are 21 years old, female, diagnosed with ADHD, have average sleep patterns, moderate stress levels, and no reported support system (Please feel free to share if you would like to). Your daily routine is pretty balanced, and you do not have any ongoing treatment.
+2024-12-21 21:48:54,065 [INFO] User list fetched successfully.
+2024-12-21 21:49:03,742 [INFO] User list fetched successfully.
+2024-12-21 21:49:03,745 [INFO] Loaded user data: {'name': 'Ammar', 'age': 21, 'gender': 'Male', 'health_record': 'Ss,lsd', 'sleep_pattern': 'Very Good', 'stress_level': 4, 'support_system': 'Yes', 'daily_routine': 'akdnmas', 'ongoing_treatment': 'adjsada'}
+2024-12-21 21:49:07,712 [INFO] User list fetched successfully.
+2024-12-21 21:49:07,714 [INFO] Loaded user data: {'name': 'Ammar', 'age': 21, 'gender': 'Male', 'health_record': 'Ss,lsd', 'sleep_pattern': 'Very Good', 'stress_level': 4, 'support_system': 'Yes', 'daily_routine': 'akdnmas', 'ongoing_treatment': 'adjsada'}
+2024-12-21 21:49:07,716 [INFO] User message received: Hi
+2024-12-21 21:49:07,716 [DEBUG] Prompt sent to LLM: User Details:
+Name: Ammar
+Age: 21
+Gender: Male
+Health Record: Ss,lsd
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: akdnmas
+Ongoing Treatment: adjsada
+
+User Query: Hi
+2024-12-21 21:49:07,717 [INFO] Generating response from LLM...
+2024-12-21 21:49:07,717 [DEBUG] Prompt: User Details:
+Name: Ammar
+Age: 21
+Gender: Male
+Health Record: Ss,lsd
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: akdnmas
+Ongoing Treatment: adjsada
+
+User Query: Hi
+2024-12-21 21:49:07,723 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:49:12,647 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 408
+2024-12-21 21:49:12,650 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:49:12.643393Z', 'message': {'role': 'assistant', 'content': "Hi Ammar! I'm an AI language model here to help with mental health. How can I assist you today?"}, 'done_reason': 'stop', 'done': True, 'total_duration': 4913117834, 'load_duration': 26733167, 'prompt_eval_count': 212, 'prompt_eval_duration': 2247000000, 'eval_count': 32, 'eval_duration': 2633000000}
+2024-12-21 21:49:12,650 [DEBUG] Response received from LLM: Hi Ammar! I'm an AI language model here to help with mental health. How can I assist you today?
+2024-12-21 21:54:50,098 [INFO] User list fetched successfully.
+2024-12-21 21:54:54,256 [INFO] User list fetched successfully.
+2024-12-21 21:54:54,258 [INFO] Loaded user data: {'name': 'Ammar', 'age': 21, 'gender': 'Male', 'health_record': 'Ss,lsd', 'sleep_pattern': 'Very Good', 'stress_level': 4, 'support_system': 'Yes', 'daily_routine': 'akdnmas', 'ongoing_treatment': 'adjsada'}
+2024-12-21 21:54:57,498 [INFO] User list fetched successfully.
+2024-12-21 21:54:57,500 [INFO] Loaded user data: {'name': 'Ammar', 'age': 21, 'gender': 'Male', 'health_record': 'Ss,lsd', 'sleep_pattern': 'Very Good', 'stress_level': 4, 'support_system': 'Yes', 'daily_routine': 'akdnmas', 'ongoing_treatment': 'adjsada'}
+2024-12-21 21:54:57,502 [INFO] User message received: Hi
+2024-12-21 21:54:57,503 [DEBUG] Prompt sent to LLM: User Details:
+Name: Ammar
+Age: 21
+Gender: Male
+Health Record: Ss,lsd
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: akdnmas
+Ongoing Treatment: adjsada
+
+User Query: Hi
+2024-12-21 21:54:57,503 [INFO] Generating response from LLM...
+2024-12-21 21:54:57,503 [DEBUG] Prompt: User Details:
+Name: Ammar
+Age: 21
+Gender: Male
+Health Record: Ss,lsd
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: akdnmas
+Ongoing Treatment: adjsada
+
+User Query: Hi
+2024-12-21 21:54:57,506 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:55:09,415 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 635
+2024-12-21 21:55:09,420 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:55:09.405663Z', 'message': {'role': 'assistant', 'content': 'Hi Ammar! I’m glad you are reaching out and seeking support to improve your mental health. I am here to help you with any information that you may need or to simply listen if you want to share what is on your mind. Remember, it takes a lot of courage to reach out for help and I commend you for taking this first step.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 11892158250, 'load_duration': 543363375, 'prompt_eval_count': 212, 'prompt_eval_duration': 4645000000, 'eval_count': 79, 'eval_duration': 6635000000}
+2024-12-21 21:55:09,420 [DEBUG] Response received from LLM: Hi Ammar! I’m glad you are reaching out and seeking support to improve your mental health. I am here to help you with any information that you may need or to simply listen if you want to share what is on your mind. Remember, it takes a lot of courage to reach out for help and I commend you for taking this first step.
+2024-12-21 21:55:29,385 [INFO] User list fetched successfully.
+2024-12-21 21:55:29,389 [INFO] Loaded user data: {'name': 'Ammar', 'age': 21, 'gender': 'Male', 'health_record': 'Ss,lsd', 'sleep_pattern': 'Very Good', 'stress_level': 4, 'support_system': 'Yes', 'daily_routine': 'akdnmas', 'ongoing_treatment': 'adjsada'}
+2024-12-21 21:55:29,391 [INFO] User message received: what do you know about me?
+2024-12-21 21:55:29,391 [DEBUG] Prompt sent to LLM: User Details:
+Name: Ammar
+Age: 21
+Gender: Male
+Health Record: Ss,lsd
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: akdnmas
+Ongoing Treatment: adjsada
+
+User Query: what do you know about me?
+2024-12-21 21:55:29,391 [INFO] Generating response from LLM...
+2024-12-21 21:55:29,391 [DEBUG] Prompt: User Details:
+Name: Ammar
+Age: 21
+Gender: Male
+Health Record: Ss,lsd
+Sleep Pattern: Very Good
+Stress Level: 4
+Support System: Yes
+Daily Routine: akdnmas
+Ongoing Treatment: adjsada
+
+User Query: what do you know about me?
+2024-12-21 21:55:29,393 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-21 21:55:33,020 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 370
+2024-12-21 21:55:33,037 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-21T16:55:33.017126Z', 'message': {'role': 'assistant', 'content': 'User Details: Ammar, 21, M,Ss,lsd,Very Good,4,Yes,akdnmas.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 3618159125, 'load_duration': 12990625, 'prompt_eval_count': 218, 'prompt_eval_duration': 978000000, 'eval_count': 30, 'eval_duration': 2620000000}
+2024-12-21 21:55:33,037 [DEBUG] Response received from LLM: User Details: Ammar, 21, M,Ss,lsd,Very Good,4,Yes,akdnmas.

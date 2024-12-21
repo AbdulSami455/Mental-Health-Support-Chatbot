@@ -1,122 +1,128 @@
 import streamlit as st
-from api import generate_response
+import logging
+from api_llm import generate_response
 from ui_helpers import chat_bubble
-from user_management import load_users, save_user, get_user, list_users
+from user_management import list_users, save_user, get_user
+
+# Configure logging
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler("chatbot.log"),
+        logging.StreamHandler()
+    ]
+)
 
 st.title("Mental Health Support Chatbot")
 
-# List available users
-users = list_users()
+# Fetch the list of users and log any errors
+try:
+    users = list_users()
+    logging.info("User list fetched successfully.")
+except Exception as e:
+    logging.error(f"Error fetching user list: {e}")
+    users = []
 
+# Initialize session state for user details and chat messages
 if 'user_details' not in st.session_state:
     st.session_state['user_details'] = {}
 
-if not st.session_state['user_details']:
-    st.sidebar.title("Select a User")
-    selected_user = st.sidebar.selectbox("Existing Users", ["New User"] + users)
+if 'messages' not in st.session_state:
+    st.session_state['messages'] = []
 
-    if selected_user == "New User":
-        # New user form
-        with st.form(key='user_details_form'):
-            name = st.text_input("Enter your name:")
-            age = st.number_input("Enter your age:", min_value=0, max_value=120, step=1)
-            gender = st.selectbox("Select your gender:", ["Male", "Female", "Other"])
-            health_record = st.text_area("Any previous health record or concerns you'd like to share:")
+# Sidebar: Select or create a user
+st.sidebar.title("User Management")
+selected_user = st.sidebar.selectbox("Existing Users", ["New User"] + users)
 
-            # Additional fields
-            sleep_pattern = st.selectbox(
-                "How would you describe your sleep pattern?",
-                ["Very Good", "Good", "Average", "Poor", "Very Poor"]
-            )
-            stress_level = st.slider(
-                "On a scale of 1 to 10, how stressed do you feel? (1 = Not stressed, 10 = Extremely stressed)",
-                min_value=1, max_value=10
-            )
-            support_system = st.radio(
-                "Do you have a support system (e.g., family, friends, therapist)?",
-                ["Yes", "No", "Prefer not to say"]
-            )
-            daily_routine = st.text_area("Can you describe your typical daily routine?")
-            ongoing_treatment = st.text_area("Are you undergoing any therapy or medication? If yes, please provide details.")
+if selected_user == "New User":
+    with st.sidebar.form(key='new_user_form'):
+        name = st.text_input("Enter your name:")
+        age = st.number_input("Enter your age:", min_value=0, max_value=120, step=1)
+        gender = st.selectbox("Select your gender:", ["Male", "Female", "Other"])
+        health_record = st.text_area("Any previous health record or concerns?")
+        submit_user = st.form_submit_button(label='Create User')
 
-            submit_user_details = st.form_submit_button(label='Submit')
-
-            if submit_user_details:
-                st.session_state['user_details'] = {
-                    'name': name,
-                    'age': age,
-                    'gender': gender,
-                    'health_record': health_record,
-                    'sleep_pattern': sleep_pattern,
-                    'stress_level': stress_level,
-                    'support_system': support_system,
-                    'daily_routine': daily_routine,
-                    'ongoing_treatment': ongoing_treatment
-                }
+        if submit_user:
+            st.session_state['user_details'] = {
+                'name': name,
+                'age': age,
+                'gender': gender,
+                'health_record': health_record,
+                'sleep_pattern': 'Average',
+                'stress_level': 5,
+                'support_system': 'Prefer not to say',
+                'daily_routine': '',
+                'ongoing_treatment': ''
+            }
+            try:
                 save_user(st.session_state['user_details'])
-                st.success("User details saved successfully.")
-    else:
-        # Load selected user
+                logging.info(f"User created: {st.session_state['user_details']}")
+                st.success(f"User {name} created successfully.")
+            except Exception as e:
+                logging.error(f"Error creating user: {e}")
+                st.error("Error creating user.")
+else:
+    # Load selected user
+    try:
         user_data = get_user(selected_user)
         if user_data:
             st.session_state['user_details'] = user_data
-            st.success(f"User data for {selected_user} loaded successfully.")
+            logging.info(f"Loaded user data: {user_data}")
+        else:
+            st.warning(f"No data found for user: {selected_user}")
+    except Exception as e:
+        logging.error(f"Error loading user data for {selected_user}: {e}")
+        st.error("Error loading user data.")
 
-# Handle chat and book summaries
-if 'user_details' in st.session_state and st.session_state['user_details'].get('name'):
+# Chat interface
+if 'user_details' in st.session_state and st.session_state['user_details']:
     user_details = st.session_state['user_details']
-    st.markdown(f"### Welcome, {user_details['name']}!")
-    
-    if 'messages' not in st.session_state:
-        st.session_state['messages'] = []
+    st.markdown(f"### Chat with {user_details['name']}")
 
-    with st.form(key='chat_form'):
-        user_message = st.text_input("You:")
+    # Display chat history
+    chat_container = st.container()
+    with chat_container:
+        for sender, message in st.session_state['messages']:
+            st.markdown(chat_bubble(sender, message), unsafe_allow_html=True)
+
+    # Input box and send button
+    with st.form(key='chat_form', clear_on_submit=True):
+        user_message = st.text_input("Type your message:")
         submit_button = st.form_submit_button(label='Send')
 
     if submit_button and user_message:
-        detailed_prompt = (
-            f"User Details:\n"
-            f"Name: {user_details['name']}\n"
-            f"Age: {user_details['age']}\n"
-            f"Gender: {user_details['gender']}\n"
-            f"Health Record: {user_details['health_record']}\n"
-            f"Sleep Pattern: {user_details['sleep_pattern']}\n"
-            f"Stress Level: {user_details['stress_level']}\n"
-            f"Support System: {user_details['support_system']}\n"
-            f"Daily Routine: {user_details['daily_routine']}\n"
-            f"Ongoing Treatment: {user_details['ongoing_treatment']}\n\n"
-            f"User Query: {user_message}"
-        )
+        logging.info(f"User message received: {user_message}")
+        try:
+            # Prepare detailed prompt
+            detailed_prompt = (
+                f"User Details:\n"
+                f"Name: {user_details['name']}\n"
+                f"Age: {user_details['age']}\n"
+                f"Gender: {user_details['gender']}\n"
+                f"Health Record: {user_details['health_record']}\n"
+                f"Sleep Pattern: {user_details.get('sleep_pattern', 'Average')}\n"
+                f"Stress Level: {user_details.get('stress_level', 5)}\n"
+                f"Support System: {user_details.get('support_system', 'Prefer not to say')}\n"
+                f"Daily Routine: {user_details.get('daily_routine', '')}\n"
+                f"Ongoing Treatment: {user_details.get('ongoing_treatment', '')}\n\n"
+                f"User Query: {user_message}"
+            )
+            logging.debug(f"Prompt sent to LLM: {detailed_prompt}")
 
-        st.session_state['messages'].append(("You", user_message))
-        response = generate_response(detailed_prompt)
-        st.session_state['messages'].append(("Assistant", response))
+            response = generate_response(detailed_prompt)
+            if not response.strip():
+                response = "I'm sorry, I couldn't process your request. Please try again."
+                logging.warning("Received empty or invalid response from LLM.")
 
-    for sender, message in st.session_state['messages']:
-        st.markdown(chat_bubble(sender, message), unsafe_allow_html=True)
+            logging.debug(f"Response received from LLM: {response}")
+            st.session_state['messages'].append(("You", user_message))
+            st.session_state['messages'].append(("Assistant", response))
 
-famous_books = [
-    "The Body Keeps the Score by Bessel van der Kolk",
-    "Man's Search for Meaning by Viktor Frankl",
-    "Feeling Good: The New Mood Therapy by David D. Burns",
-    "The Happiness Trap by Russ Harris",
-    "Lost Connections by Johann Hari",
-]
+            with chat_container:
+                st.markdown(chat_bubble("You", user_message), unsafe_allow_html=True)
+                st.markdown(chat_bubble("Assistant", response), unsafe_allow_html=True)
 
-def get_book_summary(book_name):
-    prompt = f"Please provide a concise summary of the book: '{book_name}' and its importance to mental health. and summary must be 40-50 lines"
-    return generate_response(prompt)
-
-st.sidebar.title("Famous Mental Health Books")
-for book in famous_books:
-    if st.sidebar.button(book):
-        summary = get_book_summary(book)
-        st.markdown(f"### Summary for '{book}'")
-        st.markdown(summary)
-
-st.sidebar.title("Resources")
-st.sidebar.write("If you need immediate help, please contact one of the following resources:")
-st.sidebar.write("1. National Suicide Prevention Lifeline: 1-800-273-8255")
-st.sidebar.write("2. Crisis Text Line: Text 'HELLO' to 741741")
-st.sidebar.write("[More Resources](https://www.mentalhealth.gov/get-help/immediate-help)")
+        except Exception as e:
+            logging.error(f"Error during LLM interaction: {e}")
+            st.error("An error occurred while processing your message. Please try again.")

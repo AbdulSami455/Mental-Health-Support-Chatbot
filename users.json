@@ -15,5 +15,16 @@
         "support_system": "Yes",
         "daily_routine": "akdnmas",
         "ongoing_treatment": "adjsada"
+    },
+    "ALI Haris Chisti": {
+        "name": "ALI Haris Chisti",
+        "age": 21,
+        "gender": "Male",
+        "health_record": "kmkcsaxas",
+        "sleep_pattern": "Very Good",
+        "stress_level": 4,
+        "support_system": "Yes",
+        "daily_routine": "m axascas",
+        "ongoing_treatment": "scascasc"
     }
 }
