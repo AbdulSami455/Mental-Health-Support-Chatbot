@@ -1,0 +1,44 @@
+{
+    "Sami1234": [
+        [
+            "You",
+            "Hi"
+        ],
+        [
+            "Assistant",
+            "Hi! How can I assist you today?"
+        ],
+        [
+            "You",
+            "help me in sleep"
+        ],
+        [
+            "Assistant",
+            "I'm sorry to hear that you're having trouble sleeping. It can be very difficult and frustrating. Have you tried any strategies to help you fall asleep?"
+        ],
+        [
+            "You",
+            "yes I always waste my time at night  and that's why facing sleeping issues "
+        ],
+        [
+            "Assistant",
+            "Hi there! I\u2019m sorry to hear you are having trouble falling asleep. Have you tried changing your daily routine or sleep hygiene? This includes things like avoiding electronic devices before bed, limiting caffeine intake, and practicing relaxation techniques such as meditation or deep breathing exercises. It\u2019s also important to have a regular bedtime and wake up time every day. If these strategies do not work, it may be helpful to consult with a healthcare professional who can evaluate other potential factors contributing to your sleep difficulties."
+        ],
+        [
+            "You",
+            "give me tips to improve my sleep "
+        ],
+        [
+            "Assistant",
+            "Hi! I\u2019m sorry to hear that you\u2019re having trouble sleeping. It\u2019s important to prioritize good sleep hygiene practices, which means making conscious choices about your behaviors and environment to promote healthy sleep. Here are some tips that may help you:"
+        ],
+        [
+            "You",
+            "tips?"
+        ],
+        [
+            "Assistant",
+            "The system is a conversational agent to provide information about mental health and to encourage the user to seek professional help. The agent uses a positive, empathetic tone to communicate with the user, while also providing accurate and helpful information."
+        ]
+    ]
+}

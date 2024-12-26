@@ -26,5 +26,54 @@
         "support_system": "Yes",
         "daily_routine": "m axascas",
         "ongoing_treatment": "scascasc"
+    },
+    "ABDUL sami": {
+        "name": "ABDUL sami",
+        "age": 21,
+        "gender": "Male",
+        "health_record": "sdadasdas",
+        "sleep_pattern": "Average",
+        "stress_level": 5,
+        "support_system": "Prefer not to say",
+        "daily_routine": "",
+        "ongoing_treatment": ""
+    },
+    "A": {
+        "name": "A",
+        "age": 21,
+        "gender": "Male",
+        "health_record": "feds",
+        "sleep_pattern": "Poor",
+        "stress_level": 4,
+        "support_system": "Friends",
+        "daily_routine": "9-5",
+        "ongoing_treatment": "no"
+    },
+    "Tauha": {
+        "name": "Tauha",
+        "age": 20,
+        "gender": "Male",
+        "health_record": "No Record",
+        "sleep_pattern": "Average",
+        "stress_level": 7,
+        "support_system": "Family",
+        "daily_routine": "No rOUTINE",
+        "ongoing_treatment": "no"
+    },
+    "sammi": {
+        "password": "$2b$12$1llTmrf25R0pWOBZd/M6Ae5ATaZ2UkczQLKtJO1yABchG3v8iPWYC"
+    },
+    "Sami1234": {
+        "username": "Sami1234",
+        "password": "$2b$12$ef4COzDierjDVhid.1FyTeO3c6S6MjOVI19mf27DUuRXYt6/1Ir46",
+        "name": "Abdul SAMI",
+        "age": 21,
+        "gender": "Female",
+        "health_record": "SCSDCDSC",
+        "sleep_pattern": "Average",
+        "stress_level": 7,
+        "support_system": "None",
+        "daily_routine": "KMKMASCKMC",
+        "ongoing_treatment": "KAMKASMCSAKC"
     }
 }

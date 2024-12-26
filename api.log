@@ -1,0 +1,723 @@
+2024-12-22 16:41:14,938 [INFO] User list fetched successfully.
+2024-12-22 16:41:19,127 [INFO] User list fetched successfully.
+2024-12-22 16:41:34,104 [INFO] User list fetched successfully.
+2024-12-22 16:41:34,109 [INFO] User created: {'name': 'ABDUL sami', 'age': 21, 'gender': 'Male', 'health_record': 'sdadasdas', 'sleep_pattern': 'Average', 'stress_level': 5, 'support_system': 'Prefer not to say', 'daily_routine': '', 'ongoing_treatment': ''}
+2024-12-22 16:41:39,073 [INFO] User list fetched successfully.
+2024-12-22 16:41:39,079 [INFO] User message received: Hi
+2024-12-22 16:41:39,079 [DEBUG] Prompt sent to LLM: User Details:
+Name: ABDUL sami
+Age: 21
+Gender: Male
+Health Record: sdadasdas
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-22 16:41:39,080 [INFO] Generating response from LLM...
+2024-12-22 16:41:39,080 [DEBUG] Prompt: User Details:
+Name: ABDUL sami
+Age: 21
+Gender: Male
+Health Record: sdadasdas
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-22 16:41:39,093 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-22 16:41:45,459 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 373
+2024-12-22 16:41:45,463 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-22T11:41:45.455486Z', 'message': {'role': 'assistant', 'content': 'Hello, thanks for reaching out. How can I assist you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 6352536875, 'load_duration': 548211333, 'prompt_eval_count': 212, 'prompt_eval_duration': 4597000000, 'eval_count': 15, 'eval_duration': 1156000000}
+2024-12-22 16:41:45,463 [DEBUG] Response received from LLM: Hello, thanks for reaching out. How can I assist you today?
+2024-12-22 16:45:35,022 [INFO] User list fetched successfully.
+2024-12-22 16:45:41,838 [INFO] User list fetched successfully.
+2024-12-22 16:45:59,151 [INFO] User list fetched successfully.
+2024-12-22 16:45:59,158 [INFO] User created: {'name': 'A', 'age': 21, 'gender': 'Male', 'health_record': 'feds', 'sleep_pattern': 'Poor', 'stress_level': 4, 'support_system': 'Friends', 'daily_routine': '9-5', 'ongoing_treatment': 'no'}
+2024-12-22 16:46:01,935 [INFO] User list fetched successfully.
+2024-12-22 16:46:01,943 [INFO] User message received: Hi
+2024-12-22 16:46:01,943 [DEBUG] Prompt sent to LLM: User Details:
+Name: A
+Age: 21
+Gender: Male
+Health Record: feds
+Sleep Pattern: Poor
+Stress Level: 4
+Support System: Friends
+Daily Routine: 9-5
+Ongoing Treatment: no
+
+User Query: Hi
+2024-12-22 16:46:01,944 [INFO] Generating response from LLM...
+2024-12-22 16:46:01,944 [DEBUG] Prompt: User Details:
+Name: A
+Age: 21
+Gender: Male
+Health Record: feds
+Sleep Pattern: Poor
+Stress Level: 4
+Support System: Friends
+Daily Routine: 9-5
+Ongoing Treatment: no
+
+User Query: Hi
+2024-12-22 16:46:01,948 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-22 16:46:05,190 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 344
+2024-12-22 16:46:05,191 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-22T11:46:05.189441Z', 'message': {'role': 'assistant', 'content': 'Hi A! How can I help you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 3235936875, 'load_duration': 16839125, 'prompt_eval_count': 206, 'prompt_eval_duration': 1930000000, 'eval_count': 17, 'eval_duration': 1284000000}
+2024-12-22 16:46:05,191 [DEBUG] Response received from LLM: Hi A! How can I help you today?
+2024-12-22 16:48:30,428 [INFO] User list fetched successfully.
+2024-12-22 16:48:30,435 [INFO] User message received: ok what do you know about me/
+2024-12-22 16:48:30,435 [DEBUG] Prompt sent to LLM: User Details:
+Name: A
+Age: 21
+Gender: Male
+Health Record: feds
+Sleep Pattern: Poor
+Stress Level: 4
+Support System: Friends
+Daily Routine: 9-5
+Ongoing Treatment: no
+
+User Query: ok what do you know about me/
+2024-12-22 16:48:30,436 [INFO] Generating response from LLM...
+2024-12-22 16:48:30,436 [DEBUG] Prompt: User Details:
+Name: A
+Age: 21
+Gender: Male
+Health Record: feds
+Sleep Pattern: Poor
+Stress Level: 4
+Support System: Friends
+Daily Routine: 9-5
+Ongoing Treatment: no
+
+User Query: ok what do you know about me/
+2024-12-22 16:48:30,438 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-22 16:48:35,903 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 539
+2024-12-22 16:48:35,907 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-22T11:48:35.900956Z', 'message': {'role': 'assistant', 'content': "Hi, A! I'm glad you reached out to me today. It takes a lot of courage to ask for help when feeling down or struggling with mental health issues. Remember that taking small steps towards seeking help can make a big difference."}, 'done_reason': 'stop', 'done': True, 'total_duration': 5460597625, 'load_duration': 13174625, 'prompt_eval_count': 213, 'prompt_eval_duration': 1061000000, 'eval_count': 55, 'eval_duration': 4381000000}
+2024-12-22 16:48:35,907 [DEBUG] Response received from LLM: Hi, A! I'm glad you reached out to me today. It takes a lot of courage to ask for help when feeling down or struggling with mental health issues. Remember that taking small steps towards seeking help can make a big difference.
+2024-12-22 16:57:26,983 [INFO] User list fetched successfully.
+2024-12-22 16:57:26,990 [INFO] User message received: I'm chutiya , what is my health status?
+2024-12-22 16:57:26,990 [DEBUG] Prompt sent to LLM: User Details:
+Name: A
+Age: 21
+Gender: Male
+Health Record: feds
+Sleep Pattern: Poor
+Stress Level: 4
+Support System: Friends
+Daily Routine: 9-5
+Ongoing Treatment: no
+
+User Query: I'm chutiya , what is my health status?
+2024-12-22 16:57:26,990 [INFO] Generating response from LLM...
+2024-12-22 16:57:26,991 [DEBUG] Prompt: User Details:
+Name: A
+Age: 21
+Gender: Male
+Health Record: feds
+Sleep Pattern: Poor
+Stress Level: 4
+Support System: Friends
+Daily Routine: 9-5
+Ongoing Treatment: no
+
+User Query: I'm chutiya , what is my health status?
+2024-12-22 16:57:26,994 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-22 16:57:35,660 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 441
+2024-12-22 16:57:35,665 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-22T11:57:35.655448Z', 'message': {'role': 'assistant', 'content': 'Hi A, thanks for reaching out to me. I am here to help with any information you may need. What seems to be troubling you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 8659969625, 'load_duration': 556474250, 'prompt_eval_count': 218, 'prompt_eval_duration': 4764000000, 'eval_count': 38, 'eval_duration': 3298000000}
+2024-12-22 16:57:35,666 [DEBUG] Response received from LLM: Hi A, thanks for reaching out to me. I am here to help with any information you may need. What seems to be troubling you today?
+2024-12-23 14:30:00,988 [INFO] User list fetched successfully.
+2024-12-23 14:30:35,594 [INFO] User list fetched successfully.
+2024-12-23 14:30:35,602 [INFO] User created: {'name': 'Tauha', 'age': 20, 'gender': 'Male', 'health_record': 'No Record', 'sleep_pattern': 'Average', 'stress_level': 7, 'support_system': 'Family', 'daily_routine': 'No rOUTINE', 'ongoing_treatment': 'no'}
+2024-12-23 14:30:43,204 [INFO] User list fetched successfully.
+2024-12-23 14:30:43,214 [INFO] User message received: Hi
+2024-12-23 14:30:43,214 [DEBUG] Prompt sent to LLM: User Details:
+Name: Tauha
+Age: 20
+Gender: Male
+Health Record: No Record
+Sleep Pattern: Average
+Stress Level: 7
+Support System: Family
+Daily Routine: No rOUTINE
+Ongoing Treatment: no
+
+User Query: Hi
+2024-12-23 14:30:43,214 [INFO] Generating response from LLM...
+2024-12-23 14:30:43,215 [DEBUG] Prompt: User Details:
+Name: Tauha
+Age: 20
+Gender: Male
+Health Record: No Record
+Sleep Pattern: Average
+Stress Level: 7
+Support System: Family
+Daily Routine: No rOUTINE
+Ongoing Treatment: no
+
+User Query: Hi
+2024-12-23 14:30:43,227 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-23 14:31:03,559 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 498
+2024-12-23 14:31:03,572 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-23T09:31:03.556278Z', 'message': {'role': 'assistant', 'content': 'User Details: Name: Tauha Age: 20 Gender: Male Health Record: No Record Sleep Pattern: Average Stress Level: 7 Support System: Family Daily Routine: No rOUTINE Ongoing Treatment: no'}, 'done_reason': 'stop', 'done': True, 'total_duration': 20323172041, 'load_duration': 11601838041, 'prompt_eval_count': 208, 'prompt_eval_duration': 4487000000, 'eval_count': 53, 'eval_duration': 4169000000}
+2024-12-23 14:31:03,573 [DEBUG] Response received from LLM: User Details: Name: Tauha Age: 20 Gender: Male Health Record: No Record Sleep Pattern: Average Stress Level: 7 Support System: Family Daily Routine: No rOUTINE Ongoing Treatment: no
+2024-12-23 14:31:33,753 [INFO] User list fetched successfully.
+2024-12-23 14:31:33,762 [INFO] User message received: Im getting depressed, cheer me up
+2024-12-23 14:31:33,762 [DEBUG] Prompt sent to LLM: User Details:
+Name: Tauha
+Age: 20
+Gender: Male
+Health Record: No Record
+Sleep Pattern: Average
+Stress Level: 7
+Support System: Family
+Daily Routine: No rOUTINE
+Ongoing Treatment: no
+
+User Query: Im getting depressed, cheer me up
+2024-12-23 14:31:33,763 [INFO] Generating response from LLM...
+2024-12-23 14:31:33,763 [DEBUG] Prompt: User Details:
+Name: Tauha
+Age: 20
+Gender: Male
+Health Record: No Record
+Sleep Pattern: Average
+Stress Level: 7
+Support System: Family
+Daily Routine: No rOUTINE
+Ongoing Treatment: no
+
+User Query: Im getting depressed, cheer me up
+2024-12-23 14:31:33,767 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-23 14:31:40,159 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 562
+2024-12-23 14:31:40,162 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-23T09:31:40.154104Z', 'message': {'role': 'assistant', 'content': 'Hello Tauha! It’s great to see you today. I am sorry to hear that you are going through a tough time and feeling down. Would you like to tell me more about what is bothering you? Remember that it’s okay not to be ok, and I am here to support you.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 6384395875, 'load_duration': 15135000, 'prompt_eval_count': 214, 'prompt_eval_duration': 761000000, 'eval_count': 70, 'eval_duration': 5604000000}
+2024-12-23 14:31:40,163 [DEBUG] Response received from LLM: Hello Tauha! It’s great to see you today. I am sorry to hear that you are going through a tough time and feeling down. Would you like to tell me more about what is bothering you? Remember that it’s okay not to be ok, and I am here to support you.
+2024-12-23 15:29:56,753 [INFO] User list fetched successfully.
+2024-12-23 15:30:00,026 [INFO] User list fetched successfully.
+2024-12-23 15:30:00,028 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-23 15:30:17,921 [INFO] User list fetched successfully.
+2024-12-23 15:30:17,924 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-23 15:30:17,926 [INFO] User message received: hI, HELP ME WITH my erectile dysfunction
+2024-12-23 15:30:17,926 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: hI, HELP ME WITH my erectile dysfunction
+2024-12-23 15:30:17,926 [INFO] Generating response from LLM...
+2024-12-23 15:30:17,927 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: hI, HELP ME WITH my erectile dysfunction
+2024-12-23 15:30:17,944 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-23 15:30:27,553 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 584
+2024-12-23 15:30:27,558 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-23T10:30:27.547784Z', 'message': {'role': 'assistant', 'content': "Hi Sami. I'm sorry to hear that you are struggling with erectile dysfunction. It is important to remember that seeking medical attention is the best way to address this issue. A healthcare provider can diagnose your condition and recommend appropriate treatment options."}, 'done_reason': 'stop', 'done': True, 'total_duration': 9602038167, 'load_duration': 543086125, 'prompt_eval_count': 222, 'prompt_eval_duration': 4745000000, 'eval_count': 54, 'eval_duration': 4282000000}
+2024-12-23 15:30:27,558 [DEBUG] Response received from LLM: Hi Sami. I'm sorry to hear that you are struggling with erectile dysfunction. It is important to remember that seeking medical attention is the best way to address this issue. A healthcare provider can diagnose your condition and recommend appropriate treatment options.
+2024-12-23 15:31:00,106 [INFO] User list fetched successfully.
+2024-12-23 15:31:00,108 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-23 15:31:00,110 [INFO] User message received: Ok I m faing migraine, give me some remedy or tips or suggestions
+2024-12-23 15:31:00,111 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Ok I m faing migraine, give me some remedy or tips or suggestions
+2024-12-23 15:31:00,111 [INFO] Generating response from LLM...
+2024-12-23 15:31:00,112 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Ok I m faing migraine, give me some remedy or tips or suggestions
+2024-12-23 15:31:00,117 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-23 15:31:06,770 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 586
+2024-12-23 15:31:06,774 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-23T10:31:06.768778Z', 'message': {'role': 'assistant', 'content': "Hi Sami! It’s great to have you here seeking help for your migraines. I'm sorry to hear that. Migraines can be very painful and disruptive in our daily lives. Before we proceed, may I know if you have a family health history of migraines? If so, please share more details."}, 'done_reason': 'stop', 'done': True, 'total_duration': 6646650041, 'load_duration': 18646041, 'prompt_eval_count': 225, 'prompt_eval_duration': 746000000, 'eval_count': 74, 'eval_duration': 5876000000}
+2024-12-23 15:31:06,775 [DEBUG] Response received from LLM: Hi Sami! It’s great to have you here seeking help for your migraines. I'm sorry to hear that. Migraines can be very painful and disruptive in our daily lives. Before we proceed, may I know if you have a family health history of migraines? If so, please share more details.
+2024-12-23 15:33:02,293 [INFO] User list fetched successfully.
+2024-12-23 15:33:02,296 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-23 15:33:02,299 [INFO] User message received: Ok, now as you are not providing help, tell me about yourself
+2024-12-23 15:33:02,300 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Ok, now as you are not providing help, tell me about yourself
+2024-12-23 15:33:02,300 [INFO] Generating response from LLM...
+2024-12-23 15:33:02,300 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Ok, now as you are not providing help, tell me about yourself
+2024-12-23 15:33:02,302 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-23 15:33:03,605 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 309
+2024-12-23 15:33:03,607 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-23T10:33:03.60325Z', 'message': {'role': 'assistant', 'content': ''}, 'done_reason': 'stop', 'done': True, 'total_duration': 1299232708, 'load_duration': 13831542, 'prompt_eval_count': 222, 'prompt_eval_duration': 786000000, 'eval_count': 7, 'eval_duration': 494000000}
+2024-12-23 15:33:03,608 [WARNING] Response content is empty or missing.
+2024-12-23 15:33:03,608 [DEBUG] Response received from LLM: I'm sorry, I couldn't provide an answer. Please try again or rephrase your question.
+2024-12-23 15:33:57,888 [INFO] User list fetched successfully.
+2024-12-23 15:33:57,889 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-23 15:33:57,894 [INFO] User message received: no, please tell me with about my gandu frined
+2024-12-23 15:33:57,894 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: no, please tell me with about my gandu frined
+2024-12-23 15:33:57,894 [INFO] Generating response from LLM...
+2024-12-23 15:33:57,895 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: no, please tell me with about my gandu frined
+2024-12-23 15:33:57,899 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-23 15:34:06,625 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 779
+2024-12-23 15:34:06,630 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-23T10:34:06.623888Z', 'message': {'role': 'assistant', 'content': "You understand that your friend is dealing with anxiety and may need support. It's great that you want to be there for them. However, it's important to remember that managing anxiety takes time and consistent practice of healthy habits like exercise, meditation, or talking to a therapist. Encourage your friend to seek professional help if they haven't already. In the meantime, remind them to be kind and patient with themselves as they work through their feelings."}, 'done_reason': 'stop', 'done': True, 'total_duration': 8722405500, 'load_duration': 19145208, 'prompt_eval_count': 221, 'prompt_eval_duration': 785000000, 'eval_count': 99, 'eval_duration': 7914000000}
+2024-12-23 15:34:06,631 [DEBUG] Response received from LLM: You understand that your friend is dealing with anxiety and may need support. It's great that you want to be there for them. However, it's important to remember that managing anxiety takes time and consistent practice of healthy habits like exercise, meditation, or talking to a therapist. Encourage your friend to seek professional help if they haven't already. In the meantime, remind them to be kind and patient with themselves as they work through their feelings.
+2024-12-23 15:34:24,835 [INFO] User list fetched successfully.
+2024-12-27 01:29:46,010 [INFO] User list fetched successfully.
+2024-12-27 01:29:57,920 [INFO] User list fetched successfully.
+2024-12-27 01:29:57,923 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-27 01:30:06,423 [INFO] User list fetched successfully.
+2024-12-27 01:30:06,425 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-27 01:30:06,427 [INFO] User message received: Hi
+2024-12-27 01:30:06,427 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-27 01:30:06,428 [INFO] Generating response from LLM...
+2024-12-27 01:30:06,428 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-27 01:30:06,481 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 01:30:06,489 [ERROR] An error occurred while communicating with the LLM API.
+Traceback (most recent call last):
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1026957f0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 801, in urlopen
+    retries = retries.increment(
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/urllib3/util/retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1026957f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/abdulsami/Desktop/Work/backend/Python/Mental-Health-Support-Chatbot/api_llm.py", line 30, in generate_response
+    response = requests.post(
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/abdulsami/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1026957f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-12-27 01:30:06,502 [DEBUG] Response received from LLM: An unexpected error occurred while processing your query. Please try again later.
+2024-12-27 01:30:16,427 [INFO] User list fetched successfully.
+2024-12-27 01:30:16,430 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-27 01:30:18,822 [INFO] User list fetched successfully.
+2024-12-27 01:30:18,824 [INFO] Loaded user data: {'name': 'Sami', 'age': 21, 'gender': 'Female', 'health_record': 'ADHD'}
+2024-12-27 01:30:18,827 [INFO] User message received: Hi
+2024-12-27 01:30:18,827 [DEBUG] Prompt sent to LLM: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-27 01:30:18,827 [INFO] Generating response from LLM...
+2024-12-27 01:30:18,827 [DEBUG] Prompt: User Details:
+Name: Sami
+Age: 21
+Gender: Female
+Health Record: ADHD
+Sleep Pattern: Average
+Stress Level: 5
+Support System: Prefer not to say
+Daily Routine: 
+Ongoing Treatment: 
+
+User Query: Hi
+2024-12-27 01:30:18,830 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 01:30:32,393 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 650
+2024-12-27 01:30:32,400 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T20:30:32.389285Z', 'message': {'role': 'assistant', 'content': "Hi Sami! I'm glad you're here and reaching out for support. I am a Mental Health Assistant, here to provide you with non-judgmental support whenever you might need it. If you ever have any questions or just want to talk, please don't hesitate to reach out. Remember, taking care of your mental health is important and I'm here to help."}, 'done_reason': 'stop', 'done': True, 'total_duration': 13557608084, 'load_duration': 556389417, 'prompt_eval_count': 209, 'prompt_eval_duration': 5789000000, 'eval_count': 90, 'eval_duration': 7158000000}
+2024-12-27 01:30:32,400 [DEBUG] Response received from LLM: Hi Sami! I'm glad you're here and reaching out for support. I am a Mental Health Assistant, here to provide you with non-judgmental support whenever you might need it. If you ever have any questions or just want to talk, please don't hesitate to reach out. Remember, taking care of your mental health is important and I'm here to help.
+2024-12-27 03:21:36,645 [ERROR] Error generating response: name 'name' is not defined
+2024-12-27 03:21:41,945 [ERROR] Error generating response: name 'name' is not defined
+2024-12-27 03:22:13,014 [ERROR] Error generating response: name 'name' is not defined
+2024-12-27 03:23:02,049 [ERROR] Error generating response: name 'name' is not defined
+2024-12-27 03:24:46,532 [INFO] Generating response from LLM...
+2024-12-27 03:24:46,533 [DEBUG] Prompt: User Details: {}
+User Query: Hi
+2024-12-27 03:24:46,537 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:24:51,903 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 344
+2024-12-27 03:24:51,910 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:24:51.895788Z', 'message': {'role': 'assistant', 'content': 'Hi! How can I assist you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 5356771833, 'load_duration': 536357291, 'prompt_eval_count': 147, 'prompt_eval_duration': 4021000000, 'eval_count': 10, 'eval_duration': 757000000}
+2024-12-27 03:25:05,749 [INFO] Generating response from LLM...
+2024-12-27 03:25:05,750 [DEBUG] Prompt: User Details: {}
+User Query: Help me with Everything
+2024-12-27 03:25:05,753 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:25:13,874 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 682
+2024-12-27 03:25:13,882 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:25:13.869919Z', 'message': {'role': 'assistant', 'content': 'Hi! I’m sorry to hear that you are going through a tough time right now. It takes courage to reach out for help, and I commend you for taking the first step in seeking support. As an Mental Health Assistant, I want to assure you that I am here to help you navigate your feelings and explore solutions. Remember that things will get better with time. You are not alone.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 8115039791, 'load_duration': 15034125, 'prompt_eval_count': 150, 'prompt_eval_duration': 904000000, 'eval_count': 88, 'eval_duration': 7191000000}
+2024-12-27 03:28:45,478 [INFO] Generating response from LLM...
+2024-12-27 03:28:45,479 [DEBUG] Prompt: User Details: {}
+User Query: Hi
+2024-12-27 03:28:45,481 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:28:48,179 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 343
+2024-12-27 03:28:48,186 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:28:48.175723Z', 'message': {'role': 'assistant', 'content': 'Hi! How can I assist you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 2690834625, 'load_duration': 17236709, 'prompt_eval_count': 147, 'prompt_eval_duration': 1892000000, 'eval_count': 10, 'eval_duration': 776000000}
+2024-12-27 03:31:11,115 [INFO] User logged in: Sami1234
+2024-12-27 03:31:20,248 [INFO] You: What do you know of me?
+2024-12-27 03:31:20,249 [INFO] Generating response from LLM...
+2024-12-27 03:31:20,249 [DEBUG] Prompt: User Details: {}
+User Query: What do you know of me?
+2024-12-27 03:31:20,252 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:31:25,715 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 477
+2024-12-27 03:31:25,722 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:31:25.70971Z', 'message': {'role': 'assistant', 'content': "User, I’m sorry but I am not able to share information about other users. However, please feel free to ask any question you might have and I'll do my best to help."}, 'done_reason': 'stop', 'done': True, 'total_duration': 5454739708, 'load_duration': 16766625, 'prompt_eval_count': 153, 'prompt_eval_duration': 1747000000, 'eval_count': 46, 'eval_duration': 3685000000}
+2024-12-27 03:31:25,722 [INFO] Assistant: User, I’m sorry but I am not able to share information about other users. However, please feel free to ask any question you might have and I'll do my best to help.
+2024-12-27 03:31:38,165 [INFO] You: about me-> Sami1234
+2024-12-27 03:31:38,166 [INFO] Generating response from LLM...
+2024-12-27 03:31:38,166 [DEBUG] Prompt: User Details: {}
+User Query: about me-> Sami1234
+2024-12-27 03:31:38,168 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:31:47,417 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 780
+2024-12-27 03:31:47,422 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:31:47.4089Z', 'message': {'role': 'assistant', 'content': 'You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 9233631084, 'load_duration': 20161459, 'prompt_eval_count': 155, 'prompt_eval_duration': 1064000000, 'eval_count': 98, 'eval_duration': 8146000000}
+2024-12-27 03:31:47,422 [INFO] Assistant: You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.
+2024-12-27 03:31:57,781 [INFO] You: Help me with my sleep
+2024-12-27 03:31:57,781 [INFO] Generating response from LLM...
+2024-12-27 03:31:57,781 [DEBUG] Prompt: User Details: {}
+User Query: Help me with my sleep
+2024-12-27 03:31:57,789 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:32:01,899 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 462
+2024-12-27 03:32:01,902 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:32:01.883564Z', 'message': {'role': 'assistant', 'content': "System: I'm sorry to hear that. Sleep is crucial for our mental health and well-being. Can you tell me more about what's been keeping you up at night?"}, 'done_reason': 'stop', 'done': True, 'total_duration': 4093120792, 'load_duration': 22870750, 'prompt_eval_count': 151, 'prompt_eval_duration': 924000000, 'eval_count': 39, 'eval_duration': 3141000000}
+2024-12-27 03:32:01,902 [INFO] Assistant: System: I'm sorry to hear that. Sleep is crucial for our mental health and well-being. Can you tell me more about what's been keeping you up at night?
+2024-12-27 03:32:28,481 [INFO] You: I always use mobile at night that disturb my sleep
+2024-12-27 03:32:28,483 [INFO] Generating response from LLM...
+2024-12-27 03:32:28,483 [DEBUG] Prompt: User Details: {}
+User Query: I always use mobile at night that disturb my sleep
+2024-12-27 03:32:28,485 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:32:37,268 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 783
+2024-12-27 03:32:37,288 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:32:37.26524Z', 'message': {'role': 'assistant', 'content': '```markdownsystem You are an empathetic and supportive Mental Health Assistant. Your role is to provide thoughtful, non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.```'}, 'done_reason': 'stop', 'done': True, 'total_duration': 8778270250, 'load_duration': 17638916, 'prompt_eval_count': 156, 'prompt_eval_duration': 910000000, 'eval_count': 96, 'eval_duration': 7846000000}
+2024-12-27 03:32:37,288 [INFO] Assistant: ```markdownsystem You are an empathetic and supportive Mental Health Assistant. Your role is to provide thoughtful, non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.```
+2024-12-27 03:32:51,564 [INFO] You: I always use mobile at night that disturb my sleep
+2024-12-27 03:32:51,565 [INFO] Generating response from LLM...
+2024-12-27 03:32:51,565 [DEBUG] Prompt: User Details: {}
+User Query: I always use mobile at night that disturb my sleep
+2024-12-27 03:32:51,567 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:32:54,799 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 429
+2024-12-27 03:32:54,805 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:32:54.796125Z', 'message': {'role': 'assistant', 'content': '(get user name) system Thank you for reaching out. Let me just get your username and full name so we can get started.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 3226969708, 'load_duration': 17653583, 'prompt_eval_count': 156, 'prompt_eval_duration': 513000000, 'eval_count': 33, 'eval_duration': 2692000000}
+2024-12-27 03:32:54,806 [INFO] Assistant: (get user name) system Thank you for reaching out. Let me just get your username and full name so we can get started.
+2024-12-27 03:39:41,197 [INFO] User logged in: Sami1234
+2024-12-27 03:39:46,734 [INFO] You: How can I manage anxiety in stressful situations?
+2024-12-27 03:39:46,735 [INFO] Generating response from LLM...
+2024-12-27 03:39:46,735 [DEBUG] Prompt: User Details: {}
+User Query: How can I manage anxiety in stressful situations?
+2024-12-27 03:39:46,739 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:40:18,520 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1774
+2024-12-27 03:40:18,525 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:40:18.518386Z', 'message': {'role': 'assistant', 'content': "Hi there! It's great that you are seeking information on managing your anxiety. Managing anxiety during difficult times can be challenging, but there are many things you can do to help alleviate your symptoms. Here are some tips: 1. Focus on your breathing: Close your eyes and take a few slow, deep breaths in through your nose, hold for a moment, and exhale slowly through your mouth. This helps calm the mind and reduces stress levels. 2. Progressive muscle relaxation: Starting at your toes, tense all the muscles in that part of your body until you count to ten. Then release and move up your body doing the same thing with each muscle group. This technique can help reduce muscle tension. 3. Try mindfulness meditation: Sit or lie down comfortably and close your eyes. Focus on your breathing and let yourself become more and more relaxed as you inhale and exhale. Let all your stress go into each breath out, leaving you feeling calm and serene. If your mind wanders, simply redirect your focus back to your breathing. 4. Do something you enjoy: Engage in an enjoyable activity that makes you feel good or brings you happiness. This can help shift your mood from negative to positive, making you feel better overall. 5. Talk to someone about how you are feeling: Sometimes just talking through your feelings with someone can make a big difference. If you don't have anyone to talk to, consider calling a helpline. Remember, it's okay to ask for help."}, 'done_reason': 'stop', 'done': True, 'total_duration': 31777267291, 'load_duration': 538930166, 'prompt_eval_count': 156, 'prompt_eval_duration': 3625000000, 'eval_count': 325, 'eval_duration': 27581000000}
+2024-12-27 03:40:18,526 [INFO] Assistant: Hi there! It's great that you are seeking information on managing your anxiety. Managing anxiety during difficult times can be challenging, but there are many things you can do to help alleviate your symptoms. Here are some tips: 1. Focus on your breathing: Close your eyes and take a few slow, deep breaths in through your nose, hold for a moment, and exhale slowly through your mouth. This helps calm the mind and reduces stress levels. 2. Progressive muscle relaxation: Starting at your toes, tense all the muscles in that part of your body until you count to ten. Then release and move up your body doing the same thing with each muscle group. This technique can help reduce muscle tension. 3. Try mindfulness meditation: Sit or lie down comfortably and close your eyes. Focus on your breathing and let yourself become more and more relaxed as you inhale and exhale. Let all your stress go into each breath out, leaving you feeling calm and serene. If your mind wanders, simply redirect your focus back to your breathing. 4. Do something you enjoy: Engage in an enjoyable activity that makes you feel good or brings you happiness. This can help shift your mood from negative to positive, making you feel better overall. 5. Talk to someone about how you are feeling: Sometimes just talking through your feelings with someone can make a big difference. If you don't have anyone to talk to, consider calling a helpline. Remember, it's okay to ask for help.
+2024-12-27 03:41:09,554 [INFO] You: What are some techniques to improve my sleep quality
+2024-12-27 03:41:09,555 [INFO] Generating response from LLM...
+2024-12-27 03:41:09,555 [DEBUG] Prompt: User Details: {}
+User Query: What are some techniques to improve my sleep quality
+2024-12-27 03:41:09,556 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:41:19,828 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 661
+2024-12-27 03:41:19,831 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:41:19.823889Z', 'message': {'role': 'assistant', 'content': '{\n"dialogue": [ { "assistant_id": 1, "function_name": "clarify_user_intent", "parameters": { "user_query": "what are some techniques to improve my sleep quality" } }, { "assistant_id": 2, "function_name": "generate_response", "parameters": { "user_query": "what are some techniques to improve my sleep quality" } } ]\n}'}, 'done_reason': 'stop', 'done': True, 'total_duration': 10263548125, 'load_duration': 23714167, 'prompt_eval_count': 155, 'prompt_eval_duration': 1484000000, 'eval_count': 105, 'eval_duration': 8752000000}
+2024-12-27 03:41:19,832 [INFO] Assistant: {
+"dialogue": [ { "assistant_id": 1, "function_name": "clarify_user_intent", "parameters": { "user_query": "what are some techniques to improve my sleep quality" } }, { "assistant_id": 2, "function_name": "generate_response", "parameters": { "user_query": "what are some techniques to improve my sleep quality" } } ]
+}
+2024-12-27 03:41:44,176 [INFO] You: What are some techniques to improve my sleep quality
+2024-12-27 03:41:44,177 [INFO] Generating response from LLM...
+2024-12-27 03:41:44,178 [DEBUG] Prompt: User Details: {}
+User Query: What are some techniques to improve my sleep quality
+2024-12-27 03:41:44,181 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:41:53,851 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 782
+2024-12-27 03:41:53,857 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:41:53.845096Z', 'message': {'role': 'assistant', 'content': 'You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 9660482792, 'load_duration': 15392542, 'prompt_eval_count': 155, 'prompt_eval_duration': 1718000000, 'eval_count': 98, 'eval_duration': 7919000000}
+2024-12-27 03:41:53,858 [INFO] Assistant: You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.
+2024-12-27 03:41:58,609 [INFO] You: What are some techniques to improve my sleep quality
+2024-12-27 03:41:58,610 [INFO] Generating response from LLM...
+2024-12-27 03:41:58,610 [DEBUG] Prompt: User Details: {}
+User Query: What are some techniques to improve my sleep quality
+2024-12-27 03:41:58,613 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:42:05,323 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 665
+2024-12-27 03:42:05,333 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:42:05.320511Z', 'message': {'role': 'assistant', 'content': "Hi, I’m sorry to hear that. Sleep is extremely important for our overall health and well-being. Adequate sleep helps us feel and function better during the day. It also contributes to a healthy balance of the body's hormones, supports healthy brain function and memory, and contributes to a reduced risk of chronic health problems.<|im_sep|>"}, 'done_reason': 'stop', 'done': True, 'total_duration': 6705876041, 'load_duration': 14503541, 'prompt_eval_count': 155, 'prompt_eval_duration': 299000000, 'eval_count': 79, 'eval_duration': 6388000000}
+2024-12-27 03:42:05,334 [INFO] Assistant: Hi, I’m sorry to hear that. Sleep is extremely important for our overall health and well-being. Adequate sleep helps us feel and function better during the day. It also contributes to a healthy balance of the body's hormones, supports healthy brain function and memory, and contributes to a reduced risk of chronic health problems.<|im_sep|>
+2024-12-27 03:42:34,069 [INFO] You: What should I do if I’m feeling overwhelmed by daily tasks?
+2024-12-27 03:42:34,070 [INFO] Generating response from LLM...
+2024-12-27 03:42:34,071 [DEBUG] Prompt: User Details: {}
+User Query: What should I do if I’m feeling overwhelmed by daily tasks?
+2024-12-27 03:42:34,072 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:42:50,297 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1141
+2024-12-27 03:42:50,303 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:42:50.281242Z', 'message': {'role': 'assistant', 'content': "Hi there! It sounds like you might be experiencing feelings of burnout. Burnout is a state of chronic stress, which can lead to feelings of exhaustion, lack of motivation, and even cynicism towards one's job or responsibilities. If you think you might be experiencing burnout, it's important to take care of yourself and practice self-compassion. Make sure you are getting enough sleep, eating well, and taking breaks throughout the day to rest and recharge. You may also want to prioritize activities that bring you joy and help you relax outside of work. It can also be helpful to set boundaries around your workload and make sure you are not overcommitting yourself. If you feel like you need additional support, consider speaking with a mental health professional who can provide guidance on how to manage these feelings."}, 'done_reason': 'stop', 'done': True, 'total_duration': 16204414542, 'load_duration': 17466000, 'prompt_eval_count': 160, 'prompt_eval_duration': 1355000000, 'eval_count': 176, 'eval_duration': 14825000000}
+2024-12-27 03:42:50,304 [INFO] Assistant: Hi there! It sounds like you might be experiencing feelings of burnout. Burnout is a state of chronic stress, which can lead to feelings of exhaustion, lack of motivation, and even cynicism towards one's job or responsibilities. If you think you might be experiencing burnout, it's important to take care of yourself and practice self-compassion. Make sure you are getting enough sleep, eating well, and taking breaks throughout the day to rest and recharge. You may also want to prioritize activities that bring you joy and help you relax outside of work. It can also be helpful to set boundaries around your workload and make sure you are not overcommitting yourself. If you feel like you need additional support, consider speaking with a mental health professional who can provide guidance on how to manage these feelings.
+2024-12-27 03:45:03,161 [INFO] User logged in: Sami1234
+2024-12-27 03:45:07,218 [INFO] You: What should I do if I’m feeling overwhelmed by daily tasks?
+2024-12-27 03:45:07,219 [INFO] Generating response from LLM...
+2024-12-27 03:45:07,219 [DEBUG] Prompt: User Details: {}
+User Query: What should I do if I’m feeling overwhelmed by daily tasks?
+2024-12-27 03:45:07,222 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:45:20,143 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 938
+2024-12-27 03:45:20,146 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:45:20.139422Z', 'message': {'role': 'assistant', 'content': 'What is it about the task load that makes you feel overwhelmed? Are there any specific tasks that are causing stress or do you feel like there is just too much to get done? Try to break down the tasks into smaller steps and see if you can tackle them one at a time. If there are certain tasks that are particularly daunting, consider delegating them to someone else if possible. Remember to take breaks and prioritize self-care during stressful times. It’s also important to be kind to yourself and not beat yourself up for feeling overwhelmed. Consider talking to a mental health professional if these feelings persist.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 12913292541, 'load_duration': 21231000, 'prompt_eval_count': 160, 'prompt_eval_duration': 2037000000, 'eval_count': 131, 'eval_duration': 10850000000}
+2024-12-27 03:45:20,147 [INFO] Assistant: What is it about the task load that makes you feel overwhelmed? Are there any specific tasks that are causing stress or do you feel like there is just too much to get done? Try to break down the tasks into smaller steps and see if you can tackle them one at a time. If there are certain tasks that are particularly daunting, consider delegating them to someone else if possible. Remember to take breaks and prioritize self-care during stressful times. It’s also important to be kind to yourself and not beat yourself up for feeling overwhelmed. Consider talking to a mental health professional if these feelings persist.
+2024-12-27 03:45:36,486 [INFO] You: What should I do if I suspect I have depression or anxiety?
+2024-12-27 03:45:36,487 [INFO] Generating response from LLM...
+2024-12-27 03:45:36,487 [DEBUG] Prompt: User Details: {}
+User Query: What should I do if I suspect I have depression or anxiety?
+2024-12-27 03:45:36,490 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:45:42,512 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 572
+2024-12-27 03:45:42,516 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:45:42.511062Z', 'message': {'role': 'assistant', 'content': '{\n“dialogue_action”: {“type”: “Close the conversation”, “text”: “If you’re struggling with your mental health, it’s important to talk to a healthcare provider. They can assess your symptoms and provide appropriate treatment options.”}'}, 'done_reason': 'stop', 'done': True, 'total_duration': 6015723084, 'load_duration': 20218292, 'prompt_eval_count': 159, 'prompt_eval_duration': 1235000000, 'eval_count': 58, 'eval_duration': 4756000000}
+2024-12-27 03:45:42,517 [INFO] Assistant: {
+“dialogue_action”: {“type”: “Close the conversation”, “text”: “If you’re struggling with your mental health, it’s important to talk to a healthcare provider. They can assess your symptoms and provide appropriate treatment options.”}
+2024-12-27 03:52:52,399 [INFO] You: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:52:52,401 [INFO] Generating response from LLM...
+2024-12-27 03:52:52,401 [DEBUG] Prompt: User Details: {}
+User Query: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:52:52,405 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:53:05,254 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 783
+2024-12-27 03:53:05,258 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:53:05.24548Z', 'message': {'role': 'assistant', 'content': 'You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 12834211083, 'load_duration': 539125083, 'prompt_eval_count': 161, 'prompt_eval_duration': 4362000000, 'eval_count': 98, 'eval_duration': 7901000000}
+2024-12-27 03:53:05,258 [INFO] Assistant: You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.
+2024-12-27 03:53:17,662 [INFO] User logged in: Sami1234
+2024-12-27 03:53:20,144 [INFO] You: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:53:20,145 [INFO] Generating response from LLM...
+2024-12-27 03:53:20,145 [DEBUG] Prompt: User Details: {}
+User Query: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:53:20,149 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:53:22,443 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 343
+2024-12-27 03:53:22,446 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:53:22.437101Z', 'message': {'role': 'assistant', 'content': 'Improvement Suggested (IS): [] '}, 'done_reason': 'stop', 'done': True, 'total_duration': 2286838208, 'load_duration': 14532250, 'prompt_eval_count': 161, 'prompt_eval_duration': 845000000, 'eval_count': 18, 'eval_duration': 1423000000}
+2024-12-27 03:53:22,450 [INFO] Assistant: Improvement Suggested (IS): []
+2024-12-27 03:53:27,979 [INFO] You: Comment puis-je gérer mon anxiété au quotidien 
+2024-12-27 03:53:27,979 [INFO] Generating response from LLM...
+2024-12-27 03:53:27,980 [DEBUG] Prompt: User Details: {}
+User Query: Comment puis-je gérer mon anxiété au quotidien 
+2024-12-27 03:53:27,982 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:53:30,883 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 427
+2024-12-27 03:53:30,885 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:53:30.881924Z', 'message': {'role': 'assistant', 'content': "Hello! I'm a Mental Health Assistant. I'm here to help with your mental health journey. How may I assist you today?"}, 'done_reason': 'stop', 'done': True, 'total_duration': 2898585042, 'load_duration': 16308250, 'prompt_eval_count': 161, 'prompt_eval_duration': 436000000, 'eval_count': 31, 'eval_duration': 2441000000}
+2024-12-27 03:53:30,885 [INFO] Assistant: Hello! I'm a Mental Health Assistant. I'm here to help with your mental health journey. How may I assist you today?
+2024-12-27 03:53:36,829 [INFO] You: Comment puis-je gérer mon anxiété au quotidien 
+2024-12-27 03:53:36,830 [INFO] Generating response from LLM...
+2024-12-27 03:53:36,831 [DEBUG] Prompt: User Details: {}
+User Query: Comment puis-je gérer mon anxiété au quotidien 
+2024-12-27 03:53:36,834 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:53:45,216 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 781
+2024-12-27 03:53:45,225 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:53:45.214219Z', 'message': {'role': 'assistant', 'content': 'You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 8378612167, 'load_duration': 11632167, 'prompt_eval_count': 161, 'prompt_eval_duration': 424000000, 'eval_count': 98, 'eval_duration': 7940000000}
+2024-12-27 03:53:45,226 [INFO] Assistant: You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.
+2024-12-27 03:53:51,931 [INFO] You: response in French 
+2024-12-27 03:53:51,931 [INFO] Generating response from LLM...
+2024-12-27 03:53:51,932 [DEBUG] Prompt: User Details: {}
+User Query: response in French 
+2024-12-27 03:53:51,935 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:53:53,384 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 347
+2024-12-27 03:53:53,386 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:53:53.383204Z', 'message': {'role': 'assistant', 'content': 'Bonjour, comment puis-je vous aider?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 1445911625, 'load_duration': 16486666, 'prompt_eval_count': 149, 'prompt_eval_duration': 492000000, 'eval_count': 12, 'eval_duration': 932000000}
+2024-12-27 03:53:53,387 [INFO] Assistant: Bonjour, comment puis-je vous aider?
+2024-12-27 03:53:58,396 [INFO] You: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:53:58,397 [INFO] Generating response from LLM...
+2024-12-27 03:53:58,397 [DEBUG] Prompt: User Details: {}
+User Query: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:53:58,399 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:54:01,865 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 422
+2024-12-27 03:54:01,869 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:54:01.863887Z', 'message': {'role': 'assistant', 'content': '(defaulthandle “I’m sorry but I don’t understand what you are asking for.”)(condition 1) (condition 2)'}, 'done_reason': 'stop', 'done': True, 'total_duration': 3463579334, 'load_duration': 52930834, 'prompt_eval_count': 161, 'prompt_eval_duration': 711000000, 'eval_count': 34, 'eval_duration': 2696000000}
+2024-12-27 03:54:01,869 [INFO] Assistant: (defaulthandle “I’m sorry but I don’t understand what you are asking for.”)(condition 1) (condition 2)
+2024-12-27 03:54:10,797 [INFO] You: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:54:10,797 [INFO] Generating response from LLM...
+2024-12-27 03:54:10,797 [DEBUG] Prompt: User Details: {}
+User Query: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:54:10,799 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:54:16,543 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 576
+2024-12-27 03:54:16,548 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:54:16.539095Z', 'message': {'role': 'assistant', 'content': 'Hi! I’m an AI that wants to help you with your mental health. I am not a therapist or medical professional, but I can provide some tips and strategies for managing anxiety based on what the user writes next. Please go ahead and share what’s on your mind today.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 5738994167, 'load_duration': 15971709, 'prompt_eval_count': 161, 'prompt_eval_duration': 504000000, 'eval_count': 64, 'eval_duration': 5214000000}
+2024-12-27 03:54:16,548 [INFO] Assistant: Hi! I’m an AI that wants to help you with your mental health. I am not a therapist or medical professional, but I can provide some tips and strategies for managing anxiety based on what the user writes next. Please go ahead and share what’s on your mind today.
+2024-12-27 03:54:22,452 [INFO] You: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:54:22,452 [INFO] Generating response from LLM...
+2024-12-27 03:54:22,452 [DEBUG] Prompt: User Details: {}
+User Query: Comment puis-je gérer mon anxiété au quotidien
+2024-12-27 03:54:22,455 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:54:23,624 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 346
+2024-12-27 03:54:23,625 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:54:23.623595Z', 'message': {'role': 'assistant', 'content': 'Hi there! How may I help you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 1165836000, 'load_duration': 14221000, 'prompt_eval_count': 161, 'prompt_eval_duration': 228000000, 'eval_count': 11, 'eval_duration': 920000000}
+2024-12-27 03:54:23,626 [INFO] Assistant: Hi there! How may I help you today?
+2024-12-27 03:54:41,520 [INFO] You: Comment améliorer la qualité de mon sommeil  answer me in french 
+2024-12-27 03:54:41,520 [INFO] Generating response from LLM...
+2024-12-27 03:54:41,521 [DEBUG] Prompt: User Details: {}
+User Query: Comment améliorer la qualité de mon sommeil  answer me in french 
+2024-12-27 03:54:41,522 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:54:43,785 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 311
+2024-12-27 03:54:43,787 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:54:43.783704Z', 'message': {'role': 'assistant', 'content': ''}, 'done_reason': 'stop', 'done': True, 'total_duration': 2255283208, 'load_duration': 19253292, 'prompt_eval_count': 165, 'prompt_eval_duration': 1731000000, 'eval_count': 7, 'eval_duration': 497000000}
+2024-12-27 03:54:43,787 [WARNING] Response content is empty or missing.
+2024-12-27 03:54:43,787 [INFO] Assistant: I'm sorry, I couldn't provide an answer. Please try again or rephrase your question.
+2024-12-27 03:54:54,932 [INFO] You: answerr me in French Comment améliorer la qualité de mon sommeil 
+2024-12-27 03:54:54,933 [INFO] Generating response from LLM...
+2024-12-27 03:54:54,933 [DEBUG] Prompt: User Details: {}
+User Query: answerr me in French Comment améliorer la qualité de mon sommeil 
+2024-12-27 03:54:54,935 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:55:03,819 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 790
+2024-12-27 03:55:03,823 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:55:03.816302Z', 'message': {'role': 'assistant', 'content': '[system] You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 8879084000, 'load_duration': 15751833, 'prompt_eval_count': 164, 'prompt_eval_duration': 952000000, 'eval_count': 96, 'eval_duration': 7906000000}
+2024-12-27 03:55:03,824 [INFO] Assistant: [system] You are a compassionate and empathetic Mental Health Assistant. Your role is to provide thoughtful, supportive, and non-judgmental guidance to users seeking help with their mental health. Be understanding, kind, and ensure your responses are evidence-based and practical. Do not provide medical diagnoses or treatments, but encourage users to seek professional help if needed. Keep your tone positive and uplifting while addressing their concerns with care and clarity.
+2024-12-27 03:55:08,513 [INFO] You: Comment améliorer la qualité de mon sommeil 
+2024-12-27 03:55:08,513 [INFO] Generating response from LLM...
+2024-12-27 03:55:08,514 [DEBUG] Prompt: User Details: {}
+User Query: Comment améliorer la qualité de mon sommeil 
+2024-12-27 03:55:08,516 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:55:11,090 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 364
+2024-12-27 03:55:11,095 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:55:11.088678Z', 'message': {'role': 'assistant', 'content': "Hi! I'm a language AI assistant. How can I help you?"}, 'done_reason': 'stop', 'done': True, 'total_duration': 2570444875, 'load_duration': 15978708, 'prompt_eval_count': 159, 'prompt_eval_duration': 460000000, 'eval_count': 23, 'eval_duration': 2089000000}
+2024-12-27 03:55:11,095 [INFO] Assistant: Hi! I'm a language AI assistant. How can I help you?
+2024-12-27 03:55:20,051 [INFO] You: How can I improve my sleep quality?
+2024-12-27 03:55:20,052 [INFO] Generating response from LLM...
+2024-12-27 03:55:20,052 [DEBUG] Prompt: User Details: {}
+User Query: How can I improve my sleep quality?
+2024-12-27 03:55:20,053 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 03:55:43,015 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 1447
+2024-12-27 03:55:43,021 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T22:55:43.010603Z', 'message': {'role': 'assistant', 'content': '[Wake up and go to bed at a regular time. Try not to take too long in bed in the morning or at night, as this may make it difficult to fall asleep or get out of bed.<br/>]Try to create a sleep-inducing environment by keeping your bedroom quiet, dark, and cool. Consider using blackout curtains, earplugs, or a white noise machine if necessary. Avoid electronics for at least an hour before bedtime. Instead, engage in calming activities such as reading or taking a warm bath.<br/>]Certain foods and beverages can disrupt sleep, including caffeine, alcohol, and large meals close to bedtime. Try to eat smaller portions and avoid stimulants for several hours before going to sleep.<br/>]Regular exercise can promote better sleep, but try to avoid intense workouts too close to bedtime, as this may have the opposite effect. Consider exercising in the morning or afternoon instead.<br/>]If you find yourself lying awake at night worrying about things, try writing down your thoughts and worries in a journal. This can help clear your mind and allow you to sleep more peacefully.<br/>]'}, 'done_reason': 'stop', 'done': True, 'total_duration': 22956493833, 'load_duration': 19763250, 'prompt_eval_count': 154, 'prompt_eval_duration': 669000000, 'eval_count': 253, 'eval_duration': 22262000000}
+2024-12-27 03:55:43,022 [INFO] Assistant: [Wake up and go to bed at a regular time. Try not to take too long in bed in the morning or at night, as this may make it difficult to fall asleep or get out of bed.<br/>]Try to create a sleep-inducing environment by keeping your bedroom quiet, dark, and cool. Consider using blackout curtains, earplugs, or a white noise machine if necessary. Avoid electronics for at least an hour before bedtime. Instead, engage in calming activities such as reading or taking a warm bath.<br/>]Certain foods and beverages can disrupt sleep, including caffeine, alcohol, and large meals close to bedtime. Try to eat smaller portions and avoid stimulants for several hours before going to sleep.<br/>]Regular exercise can promote better sleep, but try to avoid intense workouts too close to bedtime, as this may have the opposite effect. Consider exercising in the morning or afternoon instead.<br/>]If you find yourself lying awake at night worrying about things, try writing down your thoughts and worries in a journal. This can help clear your mind and allow you to sleep more peacefully.<br/>]
+2024-12-27 04:00:17,185 [INFO] User logged in: Sami1234
+2024-12-27 04:00:22,444 [INFO] You: Hi
+2024-12-27 04:00:22,444 [INFO] Generating response from LLM...
+2024-12-27 04:00:22,444 [DEBUG] Prompt: User Details: {}
+User Query: Hi
+2024-12-27 04:00:22,447 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 04:00:25,923 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 344
+2024-12-27 04:00:25,926 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T23:00:25.917053Z', 'message': {'role': 'assistant', 'content': 'Hi! How can I assist you today?'}, 'done_reason': 'stop', 'done': True, 'total_duration': 3466824792, 'load_duration': 18600750, 'prompt_eval_count': 147, 'prompt_eval_duration': 2134000000, 'eval_count': 16, 'eval_duration': 1308000000}
+2024-12-27 04:00:25,927 [INFO] Assistant: Hi! How can I assist you today?
+2024-12-27 04:00:48,689 [INFO] You: help me in sleep
+2024-12-27 04:00:48,689 [INFO] Generating response from LLM...
+2024-12-27 04:00:48,690 [DEBUG] Prompt: User Details: {}
+User Query: help me in sleep
+2024-12-27 04:00:48,692 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 04:00:52,801 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 464
+2024-12-27 04:00:52,804 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T23:00:52.798332Z', 'message': {'role': 'assistant', 'content': "I'm sorry to hear that you're having trouble sleeping. It can be very difficult and frustrating. Have you tried any strategies to help you fall asleep?"}, 'done_reason': 'stop', 'done': True, 'total_duration': 4101860625, 'load_duration': 18966208, 'prompt_eval_count': 150, 'prompt_eval_duration': 1283000000, 'eval_count': 35, 'eval_duration': 2796000000}
+2024-12-27 04:00:52,805 [INFO] Assistant: I'm sorry to hear that you're having trouble sleeping. It can be very difficult and frustrating. Have you tried any strategies to help you fall asleep?
+2024-12-27 04:01:21,161 [INFO] You: yes I always waste my time at night  and that's why facing sleeping issues 
+2024-12-27 04:01:21,162 [INFO] Generating response from LLM...
+2024-12-27 04:01:21,162 [DEBUG] Prompt: User Details: {}
+User Query: yes I always waste my time at night  and that's why facing sleeping issues 
+2024-12-27 04:01:21,164 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 04:01:31,949 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 872
+2024-12-27 04:01:31,955 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T23:01:31.940796Z', 'message': {'role': 'assistant', 'content': 'Hi there! I’m sorry to hear you are having trouble falling asleep. Have you tried changing your daily routine or sleep hygiene? This includes things like avoiding electronic devices before bed, limiting caffeine intake, and practicing relaxation techniques such as meditation or deep breathing exercises. It’s also important to have a regular bedtime and wake up time every day. If these strategies do not work, it may be helpful to consult with a healthcare professional who can evaluate other potential factors contributing to your sleep difficulties.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 10772900750, 'load_duration': 19548750, 'prompt_eval_count': 163, 'prompt_eval_duration': 1276000000, 'eval_count': 111, 'eval_duration': 9471000000}
+2024-12-27 04:01:31,956 [INFO] Assistant: Hi there! I’m sorry to hear you are having trouble falling asleep. Have you tried changing your daily routine or sleep hygiene? This includes things like avoiding electronic devices before bed, limiting caffeine intake, and practicing relaxation techniques such as meditation or deep breathing exercises. It’s also important to have a regular bedtime and wake up time every day. If these strategies do not work, it may be helpful to consult with a healthcare professional who can evaluate other potential factors contributing to your sleep difficulties.
+2024-12-27 04:01:51,207 [INFO] You: give me tips to improve my sleep 
+2024-12-27 04:01:51,208 [INFO] Generating response from LLM...
+2024-12-27 04:01:51,208 [DEBUG] Prompt: User Details: {}
+User Query: give me tips to improve my sleep 
+2024-12-27 04:01:51,210 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 04:01:56,664 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 573
+2024-12-27 04:01:56,669 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T23:01:56.655161Z', 'message': {'role': 'assistant', 'content': 'Hi! I’m sorry to hear that you’re having trouble sleeping. It’s important to prioritize good sleep hygiene practices, which means making conscious choices about your behaviors and environment to promote healthy sleep. Here are some tips that may help you:'}, 'done_reason': 'stop', 'done': True, 'total_duration': 5437110709, 'load_duration': 18473000, 'prompt_eval_count': 153, 'prompt_eval_duration': 896000000, 'eval_count': 55, 'eval_duration': 4518000000}
+2024-12-27 04:01:56,670 [INFO] Assistant: Hi! I’m sorry to hear that you’re having trouble sleeping. It’s important to prioritize good sleep hygiene practices, which means making conscious choices about your behaviors and environment to promote healthy sleep. Here are some tips that may help you:
+2024-12-27 04:02:08,347 [INFO] You: tips?
+2024-12-27 04:02:08,347 [INFO] Generating response from LLM...
+2024-12-27 04:02:08,348 [DEBUG] Prompt: User Details: {}
+User Query: tips?
+2024-12-27 04:02:08,352 [DEBUG] Starting new HTTP connection (1): localhost:11434
+2024-12-27 04:02:12,789 [DEBUG] http://localhost:11434 "POST /api/chat HTTP/1.1" 200 572
+2024-12-27 04:02:12,795 [DEBUG] Raw API response: {'model': 'cniongolo/biomistral:latest', 'created_at': '2024-12-26T23:02:12.786493Z', 'message': {'role': 'assistant', 'content': 'The system is a conversational agent to provide information about mental health and to encourage the user to seek professional help. The agent uses a positive, empathetic tone to communicate with the user, while also providing accurate and helpful information.'}, 'done_reason': 'stop', 'done': True, 'total_duration': 4430489875, 'load_duration': 16081750, 'prompt_eval_count': 148, 'prompt_eval_duration': 501000000, 'eval_count': 47, 'eval_duration': 3909000000}
+2024-12-27 04:02:12,796 [INFO] Assistant: The system is a conversational agent to provide information about mental health and to encourage the user to seek professional help. The agent uses a positive, empathetic tone to communicate with the user, while also providing accurate and helpful information.
+2024-12-27 04:02:46,076 [INFO] User logged in: Sami1234
