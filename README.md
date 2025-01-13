@@ -10,6 +10,7 @@ This project is a Mental Health Support Chatbot built using [Streamlit](https://
 - **Coping Strategies**: Provide personalized coping strategies based on the user's emotional state.
 - **Session Summaries**: Summarize the conversation and provide insights at the end of each session.
 - **Helpful Resources**: Provide links to immediate help resources for mental health support.
+- **User Management**: Users can register or load existing profiles. Profiles are saved locally with fields such as name, age, gender, health record, and more.
 
 ## Installation
 
@@ -38,7 +39,7 @@ This project is a Mental Health Support Chatbot built using [Streamlit](https://
 
 1. **Run the Streamlit application:**
     ```bash
-    streamlit run app.py
+    streamlit run main.py
     ```
 
 2. **Open the provided URL (typically `http://localhost:8501`) in your web browser.**
@@ -49,12 +50,20 @@ This project is a Mental Health Support Chatbot built using [Streamlit](https://
 
 ## Project Structure
 
-- `app.py`: The main application file containing the Streamlit code and logic for the chatbot.
-- `requirements.txt`: List of required Python packages.
+- [main.py](http://_vscodecontentref_/0): The main application file containing the Streamlit code and logic for the chatbot.
+- [api_llm.py](http://_vscodecontentref_/1): Handles interactions with the language model API.
+- [ui_helpers.py](http://_vscodecontentref_/2): Contains helper functions for generating UI components like chat bubbles.
+- [user_management.py](http://_vscodecontentref_/3): Manages user registration, authentication, and profile handling.
+- [tests_folder](http://_vscodecontentref_/4): Contains unit tests for the project.
+- [requirements.txt](http://_vscodecontentref_/5): List of required Python packages.
+- [README.md](http://_vscodecontentref_/6): This file.
+- [LICENSE](http://_vscodecontentref_/7): License information.
+- [user_chat_history.json](http://_vscodecontentref_/8): Stores chat history for users.
+- [users.json](http://_vscodecontentref_/9): Stores user profiles.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ## Acknowledgements
 
@@ -69,22 +78,8 @@ If you need immediate help, please contact one of the following resources:
 - Crisis Text Line: Text 'HELLO' to 741741
 - [More Resources](https://www.mentalhealth.gov/get-help/immediate-help)
 
-
 ## Additional Features
 
-Features
-Interactive Chatbot:
-
-Users can ask questions or share concerns with the chatbot.
-The chatbot provides supportive and non-judgmental responses based on user inputs.
-User Management:
-
-Users can register or load existing profiles.
-Profiles are saved locally with fields such as name, age, gender, health record, and more.
-Mental Health Book Summaries:
-
-Summaries of popular mental health books are available in the sidebar.
-Users can click on a book title to get a concise summary.
-Resources:
-
-Links to important mental health helplines and support services are included in the sidebar.
+- **Interactive Chatbot**: Users can ask questions or share concerns with the chatbot. The chatbot provides supportive and non-judgmental responses based on user inputs.
+- **Mental Health Book Summaries**: Summaries of popular mental health books are available in the sidebar. Users can click on a book title to get a concise summary.
+- **Resources**: Links to important mental health helplines and support services are included in the sidebar.
